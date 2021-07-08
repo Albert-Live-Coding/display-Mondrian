@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1{
+    display: none;
+}
+.testBg{
+    background-color: antiquewhite;
+}
+#theWholeThing{
+    display: grid;
+    grid-gap: .75em;
+    grid-template-columns: 40vw 20vw 15vw 25vw;
+    grid-template-rows: 10vh 14vh 22vh 12vh 8vh 12vh 12vh 8vh;
+    grid-template-areas:
+        "box1 box2 box3 box3"
+        "box1 box2 box6 box6"
+        "box4 box5 box6 box6"
+        "box4 box5 box7 box7"
+        "box8 box9 box10 box10"
+        "box11 box9 box10 box10"
+        "box11 box12 box12 box13"
+        "box14 box14 box14 box15"    
+}
+
+#box1{
+    grid-area: box1;
+    background-color: red;
+}
+#box2{
+    grid-area: box2;
+    background-color: white;
+}
+#box3{
+    grid-area: box3;
+    background-color: white;
+}
+#box4{
+    grid-area: box4;
+    background-color: blue;
+}
+#box5{
+    grid-area: box5;
+    background-color: black;
+}
+#box6{
+    grid-area: box6;
+    background-color: yellow;
+}
+#box7{
+    grid-area: box7;
+    background-color: white;
+}
+#box8{
+    grid-area: box8;
+    background-color: white;
+}
+#box9{
+    grid-area: box9;
+    background-color: red;
+}
+#box10{
+    grid-area: box10;
+    background-color: red;
+}
+#box11{
+    grid-area: box11;
+    background-color: white;
+}
+#box12{
+    grid-area: box12;
+    background-color: blue;
+}
+#box13{
+    grid-area: box13;
+    background-color: white;
+}
+#box14{
+    grid-area: box14;
+    background-color: yellow;
+}
+#box15{
+    grid-area: box15;
+    background-color: white;
+}
