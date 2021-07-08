@@ -24,7 +24,6 @@ h1{
         "box11 box12 box12 box13"
         "box14 box14 box14 box15"    
 }
-
 #box1{
     grid-area: box1;
     background-color: red;
@@ -84,4 +83,13 @@ h1{
 #box15{
     grid-area: box15;
     background-color: white;
+}
+@media{
+    #theWholeThing{
+        display: grid;
+        grid-gap: 2vh;
+        grid-template-columns: 42.5vw 22.5vw 15.5vw 15.5vw;
+        grid-template-rows: 5vh 7vh 22vh 12vh 8vh 12vh 12vh 8vh;
+        grid-template-areas:
+    }
 }
