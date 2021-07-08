@@ -11,9 +11,9 @@ h1{
 }
 #theWholeThing{
     display: grid;
-    grid-gap: .75em;
-    grid-template-columns: 40vw 20vw 15vw 25vw;
-    grid-template-rows: 10vh 14vh 22vh 12vh 8vh 12vh 12vh 8vh;
+    grid-gap: 2vh;
+    grid-template-columns: 40vw 20vw 15vw 15vw;
+    grid-template-rows: 5vh 7vh 22vh 12vh 8vh 12vh 12vh 8vh;
     grid-template-areas:
         "box1 box2 box3 box3"
         "box1 box2 box6 box6"
